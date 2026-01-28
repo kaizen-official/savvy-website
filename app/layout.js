@@ -2,6 +2,7 @@ import { Bodoni_Moda, Lato } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
+import NewHeader from "@/components/layout/newHeader";
 
 const bodoniModa = Bodoni_Moda({
   variable: "--font-bodoni",
@@ -26,7 +27,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${bodoniModa.variable} ${lato.variable} antialiased`}
       >
-        <Header />
+        {/* <Header /> */}
+        <NewHeader/>
         {children}
         <Footer />
       </body>
