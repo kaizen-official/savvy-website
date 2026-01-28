@@ -49,7 +49,7 @@ function SliderSection() {
         // Create infinite scroll animation
         const tl = gsap.to(track, {
             x: -totalWidth,
-            duration: 30,
+            duration: 20,
             ease: 'none',
             repeat: -1,
             modifiers: {
@@ -58,7 +58,7 @@ function SliderSection() {
         });
 
         // Pause on hover
-        const handleMouseEnter = () => tl.timeScale(0.3);
+        const handleMouseEnter = () => tl.timeScale(0.5);
         const handleMouseLeave = () => tl.timeScale(1);
 
         track.addEventListener('mouseenter', handleMouseEnter);

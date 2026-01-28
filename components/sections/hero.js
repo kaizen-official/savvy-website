@@ -226,7 +226,7 @@ function HeroSection() {
                 <div className="flex flex-col items-center gap-4">
                     <div className="w-px h-16 bg-white/20"></div>
                     <span
-                        className="font-lato text-[10px] tracking-[0.3em] text-white/40 uppercase"
+                        className="font-lato text-[10px] tracking-[0.3em] text-white/40 uppercase rotate-180"
                         style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}
                     >
                         Savvy Chauffeur
