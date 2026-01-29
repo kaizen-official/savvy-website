@@ -123,22 +123,24 @@ function AboutPage() {
                 }
             );
 
-            // Team animation
-            gsap.fromTo(
-                teamRef.current.querySelectorAll('.team-card'),
-                { opacity: 0, y: 50 },
-                {
-                    opacity: 1,
-                    y: 0,
-                    duration: 0.8,
-                    stagger: 0.2,
-                    ease: 'power3.out',
-                    scrollTrigger: {
-                        trigger: teamRef.current,
-                        start: 'top 75%',
-                    },
-                }
-            );
+            // Team animation (only if team section is rendered)
+            if (teamRef.current) {
+                gsap.fromTo(
+                    teamRef.current.querySelectorAll('.team-card'),
+                    { opacity: 0, y: 50 },
+                    {
+                        opacity: 1,
+                        y: 0,
+                        duration: 0.8,
+                        stagger: 0.2,
+                        ease: 'power3.out',
+                        scrollTrigger: {
+                            trigger: teamRef.current,
+                            start: 'top 75%',
+                        },
+                    }
+                );
+            }
         });
 
         return () => ctx.revert();
