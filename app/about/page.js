@@ -181,7 +181,7 @@ function AboutPage() {
             </section>
 
             {/* Story Section */}
-            <section ref={storyRef} className="bg-white py-16">
+            <section ref={storyRef} className="bg-white py-16 lg:py-20">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
                         {/* Image */}
@@ -234,7 +234,7 @@ function AboutPage() {
             </section>
 
             {/* Mission & Vision Section */}
-            <section ref={missionRef} className="bg-black py-16">
+            <section ref={missionRef} className="bg-black py-16 lg:py-20">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
                         {/* Mission */}
@@ -302,7 +302,7 @@ function AboutPage() {
             </section>
 
             {/* Values Section */}
-            <section ref={valuesRef} className="bg-neutral-50 py-16">
+            <section ref={valuesRef} className="bg-neutral-50 py-16 lg:py-20">
                 <div className="max-w-7xl mx-auto px-6">
                     {/* Header */}
                     <div className="text-center mb-16 lg:mb-20">
@@ -338,7 +338,7 @@ function AboutPage() {
             </section>
 
             {/* Team Section */}
-            {/* <section ref={teamRef} className="bg-white py-10">
+            {/* <section ref={teamRef} className="bg-white py-16 lg:py-20">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-16 lg:mb-20">
                         <p className="font-lato text-xs tracking-[0.3em] uppercase text-black/40 mb-4">
@@ -377,7 +377,7 @@ function AboutPage() {
             </section> */}
 
             {/* CTA Section */}
-            <section className="bg-black py-16">
+            <section className="bg-black py-16 lg:py-20">
                 <div className="max-w-4xl mx-auto px-6 text-center">
                     <p className="font-lato text-xs tracking-[0.3em] uppercase text-white/40 mb-6">
                         Ready to Experience the Difference?

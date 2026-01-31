@@ -194,7 +194,7 @@ function ContactPage() {
             </section>
 
             {/* Contact Section */}
-            <section className="bg-white py-20 lg:py-28">
+            <section className="bg-white py-16 lg:py-20">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 lg:gap-20">
 
@@ -436,8 +436,8 @@ function ContactPage() {
             </section>
 
             {/* Map Section */}
-            <section className="bg-black">
-                <div className="max-w-7xl mx-auto px-6 py-16 lg:py-20">
+            <section className="bg-black py-16 lg:py-20">
+                <div className="max-w-7xl mx-auto px-6">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div>
                             <p className="font-lato text-xs tracking-[0.3em] uppercase text-white/40 mb-4">
@@ -461,13 +461,13 @@ function ContactPage() {
                             </div>
                         </div>
                         <div className="aspect-video lg:aspect-square bg-neutral-900 relative overflow-hidden">
-                            <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6235.733958979832!2d174.63384995831944!3d-36.80816645847573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d3f6eb693997d%3A0x248ae9aa0a9911ff!2sSavvy%20Chauffeur%E2%80%99s%20Limited!5e0!3m2!1sen!2sin!4v1769639022478!5m2!1sen!2sin" 
-                                width="100%" 
-                                height="100%" 
-                                style={{ border: 0 }} 
-                                allowFullScreen="" 
-                                loading="lazy" 
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6235.733958979832!2d174.63384995831944!3d-36.80816645847573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d3f6eb693997d%3A0x248ae9aa0a9911ff!2sSavvy%20Chauffeur%E2%80%99s%20Limited!5e0!3m2!1sen!2sin!4v1769639022478!5m2!1sen!2sin"
+                                width="100%"
+                                height="100%"
+                                style={{ border: 0 }}
+                                allowFullScreen=""
+                                loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
                                 className="absolute inset-0 w-full h-full"
                             ></iframe>
@@ -477,7 +477,7 @@ function ContactPage() {
             </section>
 
             {/* FAQ Section */}
-            {/* <section className="bg-neutral-50 py-20 lg:py-28">
+            {/* <section className="bg-neutral-50 py-16 lg:py-20">
                 <div className="max-w-4xl mx-auto px-6">
                     <div className="text-center mb-12">
                         <p className="font-lato text-xs tracking-[0.3em] uppercase text-black/40 mb-4">

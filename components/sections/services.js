@@ -107,7 +107,7 @@ function ServicesSection() {
     }, []);
 
     return (
-        <section ref={sectionRef} className="bg-white py-10">
+        <section ref={sectionRef} className="bg-white py-16 lg:py-20">
             <div className="max-w-7xl mx-auto px-6">
                 {/* Section Header */}
                 <div ref={headerRef} className="text-center mb-16 lg:mb-24">

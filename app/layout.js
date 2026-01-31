@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         className={`${bodoniModa.variable} ${lato.variable} antialiased`}
       >
         {/* <Header /> */}
-        <NewHeader/>
+        <NewHeader />
         {children}
         <Footer />
       </body>

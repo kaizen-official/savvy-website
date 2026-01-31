@@ -72,7 +72,7 @@ function SliderSection() {
     }, [services.length]);
 
     return (
-        <section ref={sliderRef} className="bg-black py-20 lg:py-28 overflow-hidden">
+        <section ref={sliderRef} className="bg-black py-16 lg:py-20 overflow-hidden">
             {/* Section Header */}
             <div className="max-w-7xl mx-auto px-6 mb-12 lg:mb-16">
                 <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">

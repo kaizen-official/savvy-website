@@ -106,7 +106,7 @@ function TestimonialsSection() {
     };
 
     return (
-        <section ref={sectionRef} className="bg-black py-10 overflow-hidden">
+        <section ref={sectionRef} className="bg-black py-16 lg:py-20 overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
                 {/* Header */}
                 <div ref={headerRef} className="text-center mb-16 lg:mb-20">
