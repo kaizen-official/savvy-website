@@ -49,7 +49,7 @@ function ServicesSection() {
             ),
         },
         {
-            id: 'tours',
+            id: 'vip',
             title: 'Private Tours',
             description: 'Discover the city through the eyes of those who know it best. Whether a bespoke itinerary or a leisurely exploration, we curate journeys that transform transit into experience.',
             features: ['Customized Itineraries', 'Local Expertise', 'Full-Day Availability', 'Multi-City Options'],

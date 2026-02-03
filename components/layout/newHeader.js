@@ -150,7 +150,7 @@ function NewHeader() {
                             {/* Book Now - Desktop */}
                             <Link
                                 href="/booking"
-                                className="hidden md:flex items-center gap-2 bg-white text-black hover:bg-black hover:text-white px-6 py-3 font-lato text-xs tracking-widest uppercase transition-colors duration-300"
+                                className="hidden md:flex items-center gap-2 bg-white text-black hover:bg-gray-200 hover:scale-105 px-6 py-3 font-lato text-xs tracking-widest uppercase transition-all duration-300"
                             >
                                 <span>Book Now</span>
                                 <svg

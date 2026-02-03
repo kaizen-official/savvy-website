@@ -111,12 +111,12 @@ function HeroSection() {
     return (
         <section ref={heroRef} className="relative w-full h-screen overflow-hidden">
             {/* Preloader */}
-            <div
+            {/* <div
                 ref={preloaderRef}
                 className="absolute inset-0 z-30 bg-black flex items-center justify-center"
             >
                 <div className="w-12 h-12 border border-white/30 border-t-white rounded-full animate-spin"></div>
-            </div>
+            </div> */}
 
             {/* Background Video */}
             <video
@@ -176,7 +176,7 @@ function HeroSection() {
                     <div ref={ctaRef}>
                         <a
                             href="/booking"
-                            className="btn-primary inline-flex items-center gap-3 bg-white text-black px-8 py-4 text-xs md:text-sm"
+                            className="btn-primary inline-flex items-center gap-3 bg-white text-black hover:bg-gray-200 hover:scale-105 px-8 py-4 text-xs md:text-sm"
                         >
                             <span>Reserve Your Journey</span>
                             <svg

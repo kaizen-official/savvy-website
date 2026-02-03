@@ -14,7 +14,7 @@ function ServicesPage() {
 
     const services = [
         {
-            id: 'airport-transfers',
+            id: 'airport',
             title: 'Airport Transfers',
             description: 'Seamless journeys to and from Auckland Airport with flight tracking, meet-and-greet service, and complimentary waiting time for delays.',
             features: ['Real-time Flight Monitoring', 'Meet & Greet Service', 'Luggage Assistance', 'Fixed Pricing'],
@@ -27,7 +27,7 @@ function ServicesPage() {
             ),
         },
         {
-            id: 'corporate-travel',
+            id: 'corporate',
             title: 'Corporate Travel',
             description: 'Professional chauffeur services tailored for business executives. Reliable, discreet, and punctual transportation for all corporate needs.',
             features: ['Dedicated Account Manager', 'Priority Booking', 'Corporate Billing', 'Confidential Service'],
@@ -39,7 +39,7 @@ function ServicesPage() {
             ),
         },
         {
-            id: 'special-events',
+            id: 'occasions',
             title: 'Special Events',
             description: 'Make your special occasions unforgettable with our premium event transportation. Weddings, galas, anniversaries, and celebrations.',
             features: ['Red Carpet Service', 'Decorated Vehicles', 'Flexible Scheduling', 'Multiple Vehicle Options'],
@@ -73,7 +73,7 @@ function ServicesPage() {
             ),
         },
         {
-            id: 'vip-concierge',
+            id: 'vip',
             title: 'VIP Concierge',
             description: 'Complete lifestyle management including restaurant reservations, event tickets, and personalised travel arrangements.',
             features: ['Personal Assistant', 'Restaurant Bookings', 'Event Access', '24/7 Availability'],
@@ -231,7 +231,8 @@ function ServicesPage() {
                         {services.map((service) => (
                             <div
                                 key={service.id}
-                                className="service-card group p-8 border border-neutral-100 hover:border-black transition-all duration-500"
+                                id={service.id}
+                                className="service-card bg-gray-50 shadow-md hover:shadow-xl group p-8 border border-neutral-200 hover:border-black transition-all duration-500"
                             >
                                 {/* Icon */}
                                 <div className="w-16 h-16 mb-6 flex items-center justify-center text-black/30 group-hover:text-black transition-colors duration-300">
