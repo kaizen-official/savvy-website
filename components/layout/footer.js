@@ -110,8 +110,8 @@ function Footer() {
                 </svg>
                 <div>
                   <p className="font-lato text-sm text-white/60">24/7 Reservations</p>
-                  <a href="tel:+642012345678" className="font-lato text-sm text-white hover:text-white/80 transition-colors">
-                    +64 20 1234 5678
+                  <a href="tel:+64212080749" className="font-lato text-sm text-white hover:text-white/80 transition-colors">
+                    +64 212 080 749
                   </a>
                 </div>
               </div>
@@ -121,8 +121,8 @@ function Footer() {
                 </svg>
                 <div>
                   <p className="font-lato text-sm text-white/60">Email Us</p>
-                  <a href="mailto:enquiries@savvychauffeur.com" className="font-lato text-sm text-white hover:text-white/80 transition-colors">
-                    enquiries@savvychauffeur.com
+                  <a href="mailto:sales@savvychauffeur.co.nz" className="font-lato text-sm text-white hover:text-white/80 transition-colors">
+                    sales@savvychauffeur.co.nz
                   </a>
                 </div>
               </div>
@@ -134,7 +134,7 @@ function Footer() {
                 <div>
                   <p className="font-lato text-sm text-white/60">Headquarters</p>
                   <p className="font-lato text-sm text-white">
-                    New Zealand
+                    Unit 7, 3 Inanga Street<br />Hobsonville, Auckland 0618
                   </p>
                 </div>
               </div>

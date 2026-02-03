@@ -37,8 +37,8 @@ function ContactPage() {
                 </svg>
             ),
             label: '24/7 Reservations',
-            value: '+44 20 1234 5678',
-            href: 'tel:+442012345678',
+            value: '+64 212 080 749',
+            href: 'tel:+64212080749',
         },
         {
             icon: (
@@ -47,8 +47,8 @@ function ContactPage() {
                 </svg>
             ),
             label: 'Email Us',
-            value: 'enquiries@savvychauffeur.com',
-            href: 'mailto:enquiries@savvychauffeur.com',
+            value: 'sales@savvychauffeur.co.nz',
+            href: 'mailto:sales@savvychauffeur.co.nz',
         },
         {
             icon: (
@@ -58,7 +58,7 @@ function ContactPage() {
                 </svg>
             ),
             label: 'Headquarters',
-            value: 'Mayfair, London W1K',
+            value: 'Unit 7, 3 Inanga Street, Hobsonville',
             href: '#',
         },
         {
@@ -455,7 +455,8 @@ function ContactPage() {
                                     Savvy Chauffeur&apos;s Limited
                                 </p>
                                 <p className="font-lato text-sm text-white/50">
-                                    Auckland<br />
+                                    Unit 7, 3 Inanga Street<br />
+                                    Hobsonville, Auckland 0618<br />
                                     New Zealand
                                 </p>
                             </div>

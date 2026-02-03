@@ -290,16 +290,16 @@ function NewHeader() {
                             </p>
                             <div className="space-y-4">
                                 <a
-                                    href="tel:+442012345678"
+                                    href="tel:+64212080749"
                                     className="block font-lato text-lg text-white hover:text-white/70 transition-colors duration-300"
                                 >
-                                    +44 20 1234 5678
+                                    +64 212 080 749
                                 </a>
                                 <a
-                                    href="mailto:enquiries@savvychauffeur.com"
+                                    href="mailto:sales@savvychauffeur.co.nz"
                                     className="block font-lato text-sm text-white/60 hover:text-white transition-colors duration-300"
                                 >
-                                    enquiries@savvychauffeur.com
+                                    sales@savvychauffeur.co.nz
                                 </a>
                             </div>
                         </div>
