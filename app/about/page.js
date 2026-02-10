@@ -224,7 +224,7 @@ function AboutPage() {
                                 </p>
                                 <p className="story-animate font-lato text-base text-black/70 leading-relaxed">
                                     Today, we continue to uphold these founding principles, serving clients across
-                                    London and beyond with the same dedication to excellence that has defined us
+                                    Auckland and beyond with the same dedication to excellence that has defined us
                                     from the very beginning.
                                 </p>
                             </div>

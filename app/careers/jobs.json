@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Professional Chauffeur",
+        "type": "Full-time / Part-time",
+        "description": "Drive our luxury vehicles and provide exceptional service to discerning clients throughout Auckland.",
+        "requirements": [
+            "Valid NZ Full Driver License (Class 1)",
+            "P Endorsement required",
+            "Minimum 3 years driving experience",
+            "Excellent communication skills",
+            "Professional presentation"
+        ]
+    },
+    {
+        "title": "Senior Chauffeur",
+        "type": "Full-time",
+        "description": "Lead our team of chauffeurs while maintaining the highest standards of service excellence.",
+        "requirements": [
+            "Valid NZ Full Driver License (Class 1)",
+            "P Endorsement required",
+            "Minimum 5 years professional driving experience",
+            "Leadership and mentoring abilities",
+            "VIP client handling experience"
+        ]
+    }
+]

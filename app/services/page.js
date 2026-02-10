@@ -89,7 +89,7 @@ function ServicesPage() {
         {
             step: '01',
             title: 'Book',
-            description: 'Reserve your vehicle online, by phone, or through our app with instant confirmation.',
+            description: 'Reserve your vehicle online, by phone, or through our website with instant confirmation.',
         },
         {
             step: '02',
@@ -296,63 +296,6 @@ function ServicesPage() {
                                 </p>
                             </div>
                         ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Pricing Info Section */}
-            <section className="bg-white py-20 lg:py-28">
-                <div className="max-w-7xl mx-auto px-6">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-                        <div>
-                            <p className="font-lato text-xs tracking-[0.3em] uppercase text-black/40 mb-4">
-                                Transparent Pricing
-                            </p>
-                            <h2 className="font-bodoni text-3xl md:text-4xl text-black mb-6">
-                                No Hidden Fees, No Surprises
-                            </h2>
-                            <div className="w-16 h-px bg-black/20 mb-6"></div>
-                            <p className="font-lato text-base text-black/70 leading-relaxed mb-6">
-                                We believe in complete transparency. All our quotes include vehicle hire,
-                                professional chauffeur, fuel, tolls, and GST. What you see is what you pay.
-                            </p>
-                            <p className="font-lato text-base text-black/70 leading-relaxed mb-8">
-                                For airport transfers, we offer fixed pricing regardless of traffic conditions.
-                                For hourly charter and special events, we provide detailed quotes tailored to your requirements.
-                            </p>
-                            <a
-                                href="/contact"
-                                className="inline-flex items-center gap-3 bg-black text-white px-8 py-4 font-lato text-xs tracking-[0.15em] uppercase hover:bg-neutral-800 transition-colors duration-300"
-                            >
-                                <span>Request a Quote</span>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                    <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-
-                        <div className="grid grid-cols-2 gap-4">
-                            <div className="bg-black p-8 text-center">
-                                <p className="font-lato text-xs tracking-[0.15em] uppercase text-white/40 mb-2">From</p>
-                                <p className="font-bodoni text-3xl text-white mb-1">$95</p>
-                                <p className="font-lato text-xs text-white/50">Airport Transfer</p>
-                            </div>
-                            <div className="bg-neutral-100 p-8 text-center">
-                                <p className="font-lato text-xs tracking-[0.15em] uppercase text-black/40 mb-2">From</p>
-                                <p className="font-bodoni text-3xl text-black mb-1">$85</p>
-                                <p className="font-lato text-xs text-black/50">Per Hour</p>
-                            </div>
-                            <div className="bg-neutral-100 p-8 text-center">
-                                <p className="font-lato text-xs tracking-[0.15em] uppercase text-black/40 mb-2">Corporate</p>
-                                <p className="font-bodoni text-3xl text-black mb-1">Custom</p>
-                                <p className="font-lato text-xs text-black/50">Pricing Available</p>
-                            </div>
-                            <div className="bg-black p-8 text-center">
-                                <p className="font-lato text-xs tracking-[0.15em] uppercase text-white/40 mb-2">Events</p>
-                                <p className="font-bodoni text-3xl text-white mb-1">Bespoke</p>
-                                <p className="font-lato text-xs text-white/50">Packages</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>

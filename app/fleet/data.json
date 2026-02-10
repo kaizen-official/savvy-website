@@ -1,62 +1,62 @@
 [
     {
-        "id": "mercedes-s-class",
-        "name": "Mercedes-Benz S-Class",
-        "category": "Executive Sedan",
-        "description": "The epitome of automotive luxury. The S-Class offers unparalleled comfort with its handcrafted interior, whisper-quiet cabin, and advanced climate control systems.",
-        "passengers": "3",
-        "luggage": "3",
-        "images": ["/fleet/car-1.jpeg", "/fleet/car-2.jpeg", "/fleet/car-3.jpeg"],
-        "features": ["Heated & Cooled Seats", "Ambient Lighting", "Premium Sound System", "Privacy Glass", "Wi-Fi Connectivity"]
-    },
-    {
         "id": "mercedes-e-class",
-        "name": "Mercedes-Benz E-Class",
-        "category": "Business Sedan",
+        "name": "Mercedes-Benz E-Class Sedan",
+        "category": "Executive Sedan",
         "description": "Sophisticated elegance meets everyday practicality. Perfect for corporate transfers and airport journeys with ample space and refined comfort.",
         "passengers": "3",
         "luggage": "3",
-        "images": ["/fleet/car-1.jpeg", "/fleet/car-2.jpeg", "/fleet/car-3.jpeg"],
-        "features": ["Leather Interior", "Climate Control", "USB Charging", "Bluetooth Connectivity", "Spacious Boot"]
+        "images": [
+            "/fleet/car-1.jpeg",
+            "/fleet/car-2.jpeg",
+            "/fleet/car-3.jpeg"
+        ],
+        "features": [
+            "Leather Interior",
+            "Climate Control",
+            "USB Charging",
+            "Bluetooth Connectivity",
+            "Spacious Boot"
+        ]
     },
     {
-        "id": "bmw-7-series",
-        "name": "BMW 7 Series",
-        "category": "Executive Sedan",
-        "description": "Dynamic luxury with cutting-edge technology. The 7 Series combines sporting character with supreme comfort for discerning passengers.",
-        "passengers": "3",
-        "luggage": "3",
-        "images": ["/fleet/car-1.jpeg", "/fleet/car-2.jpeg", "/fleet/car-3.jpeg"],
-        "features": ["Executive Lounge Seating", "Panoramic Roof", "Rear Entertainment", "Massage Seats", "Air Suspension"]
-    },
-    {
-        "id": "range-rover",
-        "name": "Range Rover Autobiography",
-        "category": "Luxury SUV",
-        "description": "Commanding presence with unmatched versatility. Ideal for those requiring elevated ground clearance without compromising on luxury.",
-        "passengers": "4",
-        "luggage": "4",
-        "images": ["/fleet/car-1.jpeg", "/fleet/car-2.jpeg", "/fleet/car-3.jpeg"],
-        "features": ["Executive Class Rear Seats", "Refrigerated Compartment", "Deployable Tables", "All-Terrain Capability", "Panoramic Roof"]
-    },
-    {
-        "id": "mercedes-v-class",
-        "name": "Mercedes-Benz V-Class",
-        "category": "Luxury MPV",
-        "description": "Spacious luxury for groups and families. The V-Class offers first-class travel for up to six passengers with generous luggage capacity.",
+        "id": "toyota-alphard",
+        "name": "Toyota Alphard Van",
+        "category": "Luxury Van",
+        "description": "Spacious luxury for groups and families. The Alphard offers first-class travel for up to six passengers with generous luggage capacity and executive seating.",
         "passengers": "6",
-        "luggage": "6",
-        "images": ["/fleet/car-1.jpeg", "/fleet/car-2.jpeg", "/fleet/car-3.jpeg"],
-        "features": ["Conference Seating", "Electric Sliding Doors", "Individual Climate Zones", "Ample Headroom", "Premium Audio"]
+        "luggage": "4",
+        "images": [
+            "/fleet/car-1.jpeg",
+            "/fleet/car-2.jpeg",
+            "/fleet/car-3.jpeg"
+        ],
+        "features": [
+            "Executive Seating",
+            "Electric Sliding Doors",
+            "Individual Climate Zones",
+            "Ample Headroom",
+            "Premium Audio"
+        ]
     },
     {
-        "id": "rolls-royce-phantom",
-        "name": "Rolls-Royce Phantom",
-        "category": "Ultra-Luxury",
-        "description": "The pinnacle of automotive excellence. Reserved for the most prestigious occasions where nothing but absolute perfection will suffice.",
-        "passengers": "3",
-        "luggage": "2",
-        "images": ["/fleet/car-1.jpeg", "/fleet/car-2.jpeg", "/fleet/car-3.jpeg"],
-        "features": ["Starlight Headliner", "Champagne Cooler", "Bespoke Interior", "Suicide Doors", "Magic Carpet Ride"]
+        "id": "mercedes-eqv-300",
+        "name": "Mercedes EQV 300 Van",
+        "category": "Electric Luxury Van",
+        "description": "Sustainable luxury without compromise. The fully electric EQV 300 offers silent, smooth travel with zero emissions and all the premium amenities expected from Mercedes-Benz.",
+        "passengers": "6",
+        "luggage": "5",
+        "images": [
+            "/fleet/car-1.jpeg",
+            "/fleet/car-2.jpeg",
+            "/fleet/car-3.jpeg"
+        ],
+        "features": [
+            "Zero Emissions",
+            "Whisper-Quiet Cabin",
+            "Premium Leather",
+            "Conference Seating",
+            "Extended Range"
+        ]
     }
 ]

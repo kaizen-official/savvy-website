@@ -116,12 +116,6 @@ function FleetPage() {
 
     const amenities = [
         {
-            id: 'wifi',
-            icon: amenityIcons.wifi,
-            title: 'Complimentary Wi-Fi',
-            description: 'Stay connected throughout your journey with high-speed internet access.',
-        },
-        {
             id: 'water',
             icon: amenityIcons.water,
             title: 'Bottled Water',
@@ -132,12 +126,6 @@ function FleetPage() {
             icon: amenityIcons.charging,
             title: 'Device Charging',
             description: 'USB and wireless charging available for all major devices.',
-        },
-        {
-            id: 'newspapers',
-            icon: amenityIcons.newspapers,
-            title: 'Daily Newspapers',
-            description: 'Selection of quality newspapers and magazines upon request.',
         },
         {
             id: 'tracking',
@@ -263,16 +251,16 @@ function FleetPage() {
                         </div>
                         <div className="intro-animate grid grid-cols-2 gap-4">
                             <div className="bg-black p-8 text-center">
-                                <p className="font-bodoni text-4xl text-white mb-2">15+</p>
-                                <p className="font-lato text-xs tracking-[0.15em] uppercase text-white/50">Luxury Vehicles</p>
-                            </div>
-                            <div className="bg-neutral-100 p-8 text-center">
-                                <p className="font-bodoni text-4xl text-black mb-2">Daily</p>
-                                <p className="font-lato text-xs tracking-[0.15em] uppercase text-black/50">Inspections</p>
+                                <p className="font-bodoni text-4xl text-white mb-2">Daily</p>
+                                <p className="font-lato text-xs tracking-[0.15em] uppercase text-white/50">Inspections</p>
                             </div>
                             <div className="bg-neutral-100 p-8 text-center">
                                 <p className="font-bodoni text-4xl text-black mb-2">100%</p>
                                 <p className="font-lato text-xs tracking-[0.15em] uppercase text-black/50">Fully Insured</p>
+                            </div>
+                            <div className="bg-neutral-100 p-8 text-center">
+                                <p className="font-bodoni text-4xl text-black mb-2">Premium</p>
+                                <p className="font-lato text-xs tracking-[0.15em] uppercase text-black/50">Quality</p>
                             </div>
                             <div className="bg-black p-8 text-center">
                                 <p className="font-bodoni text-4xl text-white mb-2">24/7</p>
@@ -350,8 +338,8 @@ function FleetPage() {
                                                         key={dotIndex}
                                                         onClick={(e) => { e.stopPropagation(); setCardImageIndices(prev => ({ ...prev, [vehicle.id]: dotIndex })); }}
                                                         className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${(cardImageIndices[vehicle.id] || 0) === dotIndex
-                                                                ? 'bg-white w-4'
-                                                                : 'bg-white/50 hover:bg-white/80'
+                                                            ? 'bg-white w-4'
+                                                            : 'bg-white/50 hover:bg-white/80'
                                                             }`}
                                                     />
                                                 ))}
@@ -527,8 +515,8 @@ function FleetPage() {
                                                 key={dotIndex}
                                                 onClick={() => setModalImageIndex(dotIndex)}
                                                 className={`w-2 h-2 rounded-full transition-all duration-300 ${modalImageIndex === dotIndex
-                                                        ? 'bg-white w-6'
-                                                        : 'bg-white/50 hover:bg-white/80'
+                                                    ? 'bg-white w-6'
+                                                    : 'bg-white/50 hover:bg-white/80'
                                                     }`}
                                             />
                                         ))}
