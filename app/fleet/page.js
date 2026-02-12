@@ -402,7 +402,7 @@ function FleetPage() {
                         <div className="w-16 h-px bg-black/20 mx-auto"></div>
                     </div>
 
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-black/10">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-px bg-black/10">
                         {amenities.map((amenity) => (
                             <div key={amenity.id} className="bg-white p-6 lg:p-8 text-center group hover:bg-neutral-50 transition-colors duration-300">
                                 <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center text-black/40 group-hover:text-black/60 transition-colors">

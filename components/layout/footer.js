@@ -33,7 +33,7 @@ function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
               <img
-                src="/logo-white.png"
+                src="/new.png"
                 alt="Savvy Chauffeur"
                 className="h-10 w-auto"
               />

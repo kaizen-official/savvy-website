@@ -7,9 +7,9 @@
         "passengers": "3",
         "luggage": "3",
         "images": [
-            "/fleet/car-1.jpeg",
-            "/fleet/car-2.jpeg",
-            "/fleet/car-3.jpeg"
+            "/fleet/merz-1.jpeg",
+            "/fleet/merz-2.jpeg",
+            "/fleet/merz-3.jpeg"
         ],
         "features": [
             "Leather Interior",
@@ -27,9 +27,9 @@
         "passengers": "6",
         "luggage": "4",
         "images": [
-            "/fleet/car-1.jpeg",
-            "/fleet/car-2.jpeg",
-            "/fleet/car-3.jpeg"
+            "/fleet/toyota-1.jpeg",
+            "/fleet/toyota-2.jpeg",
+            "/fleet/toyota-3.jpeg"
         ],
         "features": [
             "Executive Seating",
@@ -47,9 +47,8 @@
         "passengers": "6",
         "luggage": "5",
         "images": [
-            "/fleet/car-1.jpeg",
-            "/fleet/car-2.jpeg",
-            "/fleet/car-3.jpeg"
+            "/fleet/merz-eqv-1.jpeg",
+            "/fleet/merz-eqv-2.jpeg"
         ],
         "features": [
             "Zero Emissions",
